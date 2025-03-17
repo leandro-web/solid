@@ -1,7 +1,7 @@
 <?php
-require_once "classes/order.php";
-require_once "classes/paymentProcessor.php";
-require_once "classes/emailService.php";
+require_once "classes/Order.php";
+require_once "classes/PaymentProcessor.php";
+require_once "classes/EmailService.php";
 
 $order = new Order();
 $order->addItem("Perfume", 199.99);
